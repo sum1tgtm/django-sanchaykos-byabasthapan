@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-k$q0x&y2^^_5p(h19+)x-dp!_%*i!nbrupw!vuk&ihx0wl)@e8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','sanchaykosbasthapan.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'sanchaykosbasthapan.herokuapp.com']
 
 
 # Application definition
@@ -145,17 +145,16 @@ TINYMCE_DEFAULT_CONFIG = {
 # }
 
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,"static")
+    os.path.join(BASE_DIR, "static")
 ]
 
-STATIC_ROOT=os.path.join(BASE_DIR,'assets')
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
@@ -163,9 +162,3 @@ STATIC_ROOT=os.path.join(BASE_DIR,'assets')
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-
-
-
-
