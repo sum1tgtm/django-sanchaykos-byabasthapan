@@ -1,1 +1,1 @@
-web: gunicorn Realestate realestate.wsgi --log-file -
+web: gunicorn realestate.wsgi --log-file -
